@@ -1,11 +1,12 @@
 # README for combine develepment
 
 0. In addition to all of the node modules, this project requires a global install of docker, ganache.
-1. `npm build`
-2. (in new window) `npm run combine:ganache`
-3. (in new window) `npm run deploy ganache`
-4. (in new window) `cd docker && docker-compose up`
-5. Open `http://localhost:3000` to view app
+1. `cp .combine.env .env`
+2. `npm build`
+3. (in new window) `npm run combine:ganache`
+4. (in new window) `npm run deploy ganache`
+5. (in new window) `cd docker && docker-compose up`
+6. Open `http://localhost:3000` to view app
 
 # Dummy addresses
 
