@@ -31,6 +31,7 @@
     "compile": "hardhat compile && scripts/prepack.sh",
     "coverage": "TEST=true ts-node tasks/coverage.ts",
     "deploy": "scripts/deploy.sh",
+    "combine:ganache": "ganache-cli -m 'market cinnamon supply earth cereal future accident plunge outer tube autumn circle' --networkId 1337 --chainId 1337 --hostname 0.0.0.0 -p 7545",
     "ganache": "ganache-cli --deterministic -p 7545 --networkId 1337 --chainId 1337 --hostname 0.0.0.0",
     "ganache:fork": "ganache-cli --deterministic -f ",
     "hardhat": "hardhat run --network hardhat tasks/deploy.js",
